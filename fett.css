@@ -1,0 +1,126 @@
+.wrapper {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.helmettop {
+    width: 400px;
+    height: 100px;
+    background: rgb(43, 116, 43);
+    border: 2px solid black;
+    border-radius: 500px 500px 0px 0px;
+    margin-left: 10px;
+}
+
+.tleft {
+    width:0;
+    height:0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid red;
+    border-bottom: 10px solid transparent;
+    position: relative;
+    left: 150px;
+    top: 70px;
+}
+
+.tright {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 20px solid red;
+    border-bottom: 10px solid transparent;
+    z-index:1;
+    position: relative;
+    left: 220px;
+    top: 51px;
+}
+
+#dent {
+    background: silver;
+    width: 20px;
+    height: 20px;
+    position:relative;
+    left: 300px;
+    top: 0px;
+}
+
+#dent:before,
+#dent:after {
+content:"";
+position: absolute;
+top:0;
+left: 0;
+height: 25px;
+width: 30px;
+background: silver;
+}
+
+#dent:before {
+    transform:rotate(30deg);
+}
+
+#dent:after {
+    transform:rotate(60deg);
+}
+
+.outline {
+    width: 400px;
+    height: 50px;
+    background-color: maroon;
+    margin-left: 10px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.visorh {
+    width:390px;
+    height: 30px;
+    background: black;
+    position:relative;
+    bottom: 40px;
+    left: 16px;
+}
+
+.visorv {
+    width: 100px;
+    height: 200px;
+    background: black;
+    position: relative;
+    bottom: 50px;
+    left: 158px;
+    z-index:1;
+}
+
+.outlineleft {
+    width:0;
+    height:0;
+    position: relative;
+    bottom: 230px;
+    left:118px;
+    border-top: 180px solid maroon;
+    border-left: 40px solid transparent;
+    z-index:1;
+}
+
+.outlineright {
+    width:0;
+    height: 0;
+    position: relative;
+    bottom: 410px;
+    left: 258px;
+    border-top: 180px solid maroon;
+    border-right: 40px solid transparent;
+    z-index:1;
+}
+
+.cheekleft {
+    width:400px;
+    height:178px;
+    background:rgb(43, 116, 43);
+    border:2px solid black;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    position:relative;
+    left: 10px;
+    bottom: 590px;
+}
